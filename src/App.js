@@ -4,7 +4,7 @@ import {
   DollarCircleOutlined,
   EyeOutlined,
   SendOutlined,
-  ScanOutlined
+  ScanOutlined,
 } from "@ant-design/icons";
 import { Typography, Avatar, Layout, Divider, Button, Space } from "antd";
 import pic from "./punk.jpg";
@@ -79,7 +79,7 @@ const App = () => {
           </div>
         </Header>
 
-        <Content style={{ padding: "0 50px" }} className="container">
+        <Content style={{ padding: "0 10px" }} className="container">
           <div className="card">
             <div className="card__main">
               <p>TOTAL TOKEN BALANCE</p>
